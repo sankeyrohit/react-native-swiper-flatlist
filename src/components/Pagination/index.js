@@ -38,8 +38,9 @@ const Pagination = ({
             styles.pagination,
             paginationStyleItem,
             paginationIndex === index
-              ? { backgroundColor: paginationActiveColor }
-              : { backgroundColor: paginationDefaultColor },
+              ? { width: 50 }
+              : { width: 6 },
+              { backgroundColor: paginationDefaultColor }
           ]}
           key={index}
           onPress={() => scrollToIndex({ index })}
