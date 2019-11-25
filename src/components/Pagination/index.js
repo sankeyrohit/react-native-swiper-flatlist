@@ -10,7 +10,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     marginVertical: vertical.xxSmall,
     justifyContent: 'center',
-    bottom: 0,
+    bottom: 20,
     width: '100%',
   },
   pagination: {
